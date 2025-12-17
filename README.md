@@ -1,8 +1,19 @@
-Python File Stats
+Text File Analyzer
 
-A simple Python script that reads a text file and reports:
-- number of lines
-- number of words
-- number of characters (excluding spaces and newlines)
+A simple Python project that analyzes text files and directories.
 
-This project is focused on practicing file handling, string processing, and basic error handling in Python.
+Features:
+- Analyze a single text file for:
+  - number of lines
+  - number of words
+  - number of characters (excluding spaces and newlines)
+- Analyze all .txt files in a directory and report:
+  - per-file statistics
+  - total lines, words, characters
+  - total number of files processed
+
+This project focuses on practicing:
+- file handling
+- directory traversal
+- string processing
+- basic error handling
